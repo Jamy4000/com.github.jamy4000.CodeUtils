@@ -4,9 +4,6 @@
 #
 *.log
 
-# Unity meta files
-*.meta
-
 # Visual Studio cache directory
 .vs/
 
