@@ -1,8 +1,8 @@
 {
-    "name": "jamy4000.CodeUtils",
+    "name": "jamy4000.CodeUtils.Samples",
     "rootNamespace": "",
     "references": [
-        "GUID:d8b63aba1907145bea998dd612889d6b",
+        "GUID:2643c6e5172404f4aaf9ef2dfb01d383",
         "GUID:f74a3be7836a38743947a76fe4fec0db"
     ],
     "includePlatforms": [],
