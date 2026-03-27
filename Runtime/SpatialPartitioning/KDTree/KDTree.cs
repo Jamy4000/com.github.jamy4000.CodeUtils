@@ -72,7 +72,9 @@ namespace UnityTechnologies.CodeUtils.SpatialPartionning
         public void Dispose() => _internalTree.Dispose();
         public void Rebuild() => _internalTree.Rebuild();
         
+        #if UNITY_EDITOR
         public void OnDrawGizmos() => _internalTree.OnDrawGizmos();
+        #endif
     }
 
     /// <summary>
