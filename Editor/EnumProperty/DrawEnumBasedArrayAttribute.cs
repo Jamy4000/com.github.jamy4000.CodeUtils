@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace UnityTechnologies.CodeUtils.EditorUtils
+namespace CodeUtils.EditorUtils
 {
     /// <summary>
     /// Draws an array of objects by displaying the name of the linked enum value next to it

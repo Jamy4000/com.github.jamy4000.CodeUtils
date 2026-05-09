@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEditor;
 using System;
 
-namespace UnityTechnologies.CodeUtils.EditorUtils
+namespace CodeUtils.EditorUtils
 {
     [CustomPropertyDrawer(typeof(InterfaceAttribute))]
     public class InterfacePropertyDrawer : PropertyDrawer

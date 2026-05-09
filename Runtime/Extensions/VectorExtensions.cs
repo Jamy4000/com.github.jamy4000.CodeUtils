@@ -1,7 +1,7 @@
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-namespace UnityTechnologies.CodeUtils
+namespace CodeUtils
 {
     public static class VectorExtensions
     {

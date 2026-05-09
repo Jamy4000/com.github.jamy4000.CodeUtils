@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 using Unity.Mathematics;
 using Unity.Collections;
 
-namespace UnityTechnologies.CodeUtils
+namespace CodeUtils
 {
     public static class MathUtils
     {

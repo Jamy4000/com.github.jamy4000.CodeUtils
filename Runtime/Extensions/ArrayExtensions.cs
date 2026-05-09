@@ -2,7 +2,7 @@
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace UnityTechnologies.CodeUtils
+namespace CodeUtils
 {
     public static class ArrayExtensions
     {

@@ -4,7 +4,7 @@ using Random = UnityEngine.Random;
 using UnityEditor;
 #endif
 
-namespace UnityTechnologies.CodeUtils.SpatialPartionning.Samples
+namespace CodeUtils.SpatialPartitioning.Samples
 {
     /// <summary>
     /// Sample demonstrating how <see cref="KDTree{TDimension}"/> works in 3-D.

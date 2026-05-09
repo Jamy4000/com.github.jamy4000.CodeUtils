@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace UnityTechnologies.CodeUtils
+namespace CodeUtils
 {
     /// <summary>
     /// Helper class for type safety and to enable some generic templating.

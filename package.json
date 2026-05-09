@@ -1,6 +1,6 @@
 {
   "name": "com.github.jamy4000.codeutils",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "displayName": "Code Utilities Toolkit",
   "description": "A set of utility classes to help developping games in Unity Engine.",
   "unity": "2022.3",

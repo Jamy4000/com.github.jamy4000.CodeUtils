@@ -1,4 +1,4 @@
-namespace UnityTechnologies.CodeUtils
+namespace CodeUtils
 {
     public interface IServiceLocator
     {

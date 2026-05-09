@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace UnityTechnologies.CodeUtils.EditorUtils
+namespace CodeUtils.EditorUtils
 {
     /// <summary>
     /// When this attribute is attached to a MonoBehaviour field within a

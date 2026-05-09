@@ -1,6 +1,6 @@
 ﻿using UnityEngine.Pool;
 
-namespace UnityTechnologies.CodeUtils
+namespace CodeUtils
 {
     public abstract class GenericPoolHelper<TPoolable> where TPoolable : class, IGenericPoolable
     {

@@ -1,4 +1,4 @@
-﻿namespace UnityTechnologies.CodeUtils.SpatialPartionning
+﻿namespace CodeUtils.SpatialPartitioning
 {
     public readonly struct AABB
     {

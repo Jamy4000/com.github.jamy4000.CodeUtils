@@ -2,7 +2,7 @@ using UnityEditor;
 using UnityEngine;
 
 
-namespace UnityTechnologies.CodeUtils.EditorUtils
+namespace CodeUtils.EditorUtils
 {
     /// <summary>
     /// This class contain custom drawer for ReadOnly attribute.

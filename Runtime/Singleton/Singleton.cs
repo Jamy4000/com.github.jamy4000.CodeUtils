@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace UnityTechnologies.CodeUtils
+namespace CodeUtils
 {
 #if UNITY_EDITOR
     [EditorUtils.ResetOnPlayMode(resetMethod: "ResetStaticState")]

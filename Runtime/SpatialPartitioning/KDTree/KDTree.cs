@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace UnityTechnologies.CodeUtils.SpatialPartionning
+namespace CodeUtils.SpatialPartitioning
 {
     /// <summary>
     /// Public façade over <see cref="KDTreeInternal{TDimension,TDimensionComparer}"/>.

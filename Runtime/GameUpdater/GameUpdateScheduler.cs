@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.Jobs;
 using UnityEngine;
 
-namespace UnityTechnologies.CodeUtils
+namespace CodeUtils
 {
     public interface I_Pausable { };
     public interface I_UpdatePhaseEarly { };

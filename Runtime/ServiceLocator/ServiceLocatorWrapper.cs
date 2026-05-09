@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace UnityTechnologies.CodeUtils
+namespace CodeUtils
 {
     /// <summary>
     /// This is just a wrapper to have the service locator in a scene

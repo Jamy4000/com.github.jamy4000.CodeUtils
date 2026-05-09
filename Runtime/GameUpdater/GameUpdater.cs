@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace UnityTechnologies.CodeUtils
+namespace CodeUtils
 {
     /// <summary>
     /// Catch the Unity Messages and call the corresponding method in the GameUpdateScheduler.

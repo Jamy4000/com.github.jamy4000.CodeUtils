@@ -1,6 +1,6 @@
 ﻿using UnityEngine.Pool;
 
-namespace UnityTechnologies.CodeUtils.SpatialPartionning
+namespace CodeUtils.SpatialPartitioning
 {
     public sealed class OctreePool : System.IDisposable
     {

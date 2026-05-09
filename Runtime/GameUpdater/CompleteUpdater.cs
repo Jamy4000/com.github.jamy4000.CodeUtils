@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace UnityTechnologies.CodeUtils
+namespace CodeUtils
 {
     /// <summary>
     /// An updater that iterates over its entire list each time-slice.

@@ -1,16 +1,13 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 
-namespace UnityTechnologies.CodeUtils
+namespace CodeUtils
 {
-    public interface IFSMState
+    public interface IFSMState : System.IDisposable
     {
-        bool IsActiveState { get; set; }
-        System.Action RequestToExitCurrentState { get; set; }
+        event System.Action RequestToExitCurrentState;
 
         bool CanBeEntered();
         bool CanBeExited();
-
-        void OnDestroy();
     }
 
     public interface IFSMState<TStateEnum> : IFSMState
@@ -18,7 +15,7 @@ namespace UnityTechnologies.CodeUtils
     {
         TStateEnum StateEnum { get; }
 
-        System.Action<TStateEnum> RequestEnterState { get; set; }
+        event System.Action<TStateEnum> RequestEnterState;
 
         bool HasPossibleTransitionsTo(TStateEnum stateEnum);
 
@@ -28,6 +25,6 @@ namespace UnityTechnologies.CodeUtils
 
         void EndState();
 
-        List<TStateEnum> GetTransitionsStates();
+        IReadOnlyList<TStateEnum> GetTransitionsStates();
     }
 }

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace UnityTechnologies.CodeUtils
+namespace CodeUtils
 {
     public sealed class ServiceLocator : IServiceLocator, System.IDisposable
     {

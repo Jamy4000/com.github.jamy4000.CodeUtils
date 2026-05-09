@@ -5,7 +5,7 @@ using System.Reflection;
 using UnityEditor;
 using UnityEngine;
 
-namespace UnityTechnologies.CodeUtils.EditorUtils
+namespace CodeUtils.EditorUtils
 {
     [AttributeUsage(AttributeTargets.Class, Inherited = true, AllowMultiple = true)]
     public sealed class ResetOnPlayModeAttribute : Attribute
@@ -79,7 +79,7 @@ namespace UnityTechnologies.CodeUtils.EditorUtils
                 // TODO Replace MY_ASSEMBLY_START_LETTERS by a common string that the assemblies in your game are using.
                 // EXAMPLE 1: If your game is called "MyAwesomeShooter", you could start all your assemblies by "MAS" and change the "MY_ASSEMBLY" string below.
                 // EXAMPLE 2: If your studio is called "Hug Them All Studio", you could start all your assemblies by "HTAS" and change the "MY_ASSEMBLY" string below.
-                .Where(a => a.FullName.StartsWith("Assembly-CSharp") || a.FullName.StartsWith("JSS"))
+                .Where(a => a.FullName.StartsWith("Assembly-CSharp") || a.FullName.StartsWith("MY_ASSEMBLY_START_LETTERS"))
                 .SelectMany(a => a.GetTypes())
                 .Where(t =>
                     !t.ContainsGenericParameters

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace UnityTechnologies.CodeUtils.SpatialPartionning
+namespace CodeUtils.SpatialPartitioning
 {
     /// <summary>
     /// A 3-D spatial partitioner that recursively subdivides space into 8 axis-aligned octants.

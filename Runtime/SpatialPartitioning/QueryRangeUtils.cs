@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace UnityTechnologies.CodeUtils.SpatialPartionning
+namespace CodeUtils.SpatialPartitioning
 {
     /// <summary>
     /// Shared utilities for no-alloc range query result management across all spatial partitioners.

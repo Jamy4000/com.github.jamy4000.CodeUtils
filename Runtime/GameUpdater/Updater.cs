@@ -1,6 +1,6 @@
 using System;
 
-namespace UnityTechnologies.CodeUtils
+namespace CodeUtils
 {
     public interface IUpdaterFacade<TItem>
         where TItem : class

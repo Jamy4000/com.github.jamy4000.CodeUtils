@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace UnityTechnologies.CodeUtils.SpatialPartionning
+namespace CodeUtils.SpatialPartitioning
 {
     /// <summary>
     /// Defines the per-axis operations required by <see cref="KDTree{TDimension}"/> to work

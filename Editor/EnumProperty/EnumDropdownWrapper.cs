@@ -3,7 +3,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using TMPro;
 
-namespace UnityTechnologies.CodeUtils.EditorUtils
+namespace CodeUtils.EditorUtils
 {
     public class EnumDropdownWrapper<T> : IDisposable where T : Enum  
     {
